@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F0F4C3;
+    font-family: 'poppins', sans-serif ;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    width: 200px; /* Set a default width */
+    height: 200px; /* Set a default height */
+    border-radius: 50%; /* Make it a circle */
+    background-color:#4CAF50 ; /* Set background color */
+  }
+
+  /* CSS for Submit Button */
+  #submit {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Hover effect */
+  #submit:hover {
+    background-color: #45a049; /* Darker green */
+  }
